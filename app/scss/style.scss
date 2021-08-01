@@ -1,0 +1,23 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__logo {
+		width: 250px;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.promo {
+	min-height: 650px;
+	padding: 21px 0 93px;
+	background: url(../images/main.jpg) center (center/cover) no-repeat;
+}
