@@ -9,15 +9,126 @@
 	justify-content: space-between;
 	align-items: center;
 	&__logo {
-		width: 250px;
+		max-width: 250px;
 		img {
 			width: 100%;
 		}
 	}
+	&__official {
+		text-align: center;
+		color: #fff;
+		font-weight: 500;
+		font-size: 12px;
+		span {
+			font-size: 18px;
+			line-height: 29px;
+			display: block;
+		}
+	}
+	&__phone {
+		display: block;
+		font-size: 18px;
+		font-weight: 700;
+		color: #fff;
+		margin-bottom: 4px;
+	}
+	&__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
 }
 
 .promo {
+	color: #fff;
 	min-height: 650px;
 	padding: 21px 0 93px;
 	background: url(../images/main.jpg) center (center/cover) no-repeat;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-top: 90px;
+	}
+	&__header {
+		font-size: 42px;
+		line-height: 42px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 17px;
+	}
+	&__subheader {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+	&__icons {
+		margin-top: 65px;
+		display: flex;
+		max-width: 425px;
+		width: 100%;
+		justify-content: space-between;
+	}
+	&__icon {
+		width: 120px;
+		text-align: center;
+		font-weight: 500;
+		font-size: 14px;
+		img {
+			margin: 0 auto 20px;
+		}
+	}
+	&__link {
+		margin-top: 18px;
+		font-size: 16px;
+		font-weight: 400;
+		a {
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: underline;
+		}
+	}
 }
+
+.advantages {
+	text-align: center;
+	padding: 71px 0 83px;
+	background: #f6f6f6;
+	color: #0d0d0d;
+	&__title {
+		font-size: 30px;
+		line-height: 38px;
+		font-weight: 700;
+		margin-bottom: 60px;
+	}
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 -10px;
+	}
+	&__item {
+		max-width: 275px;
+		padding: 0 10px;
+	}
+	&__item-img {
+		margin: 0 auto 35px;
+	}
+	&__item-title {
+		font-size: 18px;
+		line-height: 29px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+	&__item-text {
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 18px;
+		a {
+			color: #ff0000;
+			text-decoration: underline;
+		}
+	}
+}
+
+@import "media";
