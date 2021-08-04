@@ -17,6 +17,21 @@ body {
 	flex: 0 0 auto;
 }
 
+.slick-track {
+	display: flex;
+	align-items: center;
+}
+.slick-list {
+	overflow: hidden;
+}
+.slick-slide {
+	height: 100%;
+}
+.slick-arrow {
+	background-color: transparent;
+	border: none;
+}
+
 .container {
 	max-width: 980px;
 	margin: 0 auto;

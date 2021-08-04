@@ -19,6 +19,12 @@
 		line-height: 38px;
 		max-width: 770px;
 	}
+	.carousel {
+		padding: 60px 0;
+		&__inner {
+			width: 550px;
+		}
+	}
 }
 
 @media (max-width: 768px) {
@@ -76,8 +82,17 @@
 		&__logo {
 			max-width: 250px;
 		}
+		&__phone {
+			font-size: 18px;
+		}
+		&__contacts {
+			align-items: center;
+		}
 		&__official {
 			margin: 20px 0;
+			span {
+				font-size: 18px;
+			}
 		}
 	}
 	.consultation {
@@ -88,6 +103,14 @@
 		font-size: 24px;
 		line-height: 32px;
 		max-width: 770px;
+	}
+	.carousel {
+		&__inner {
+			width: 350px;
+		}
+		.slick-dots {
+			margin-top: 25px;
+		}
 	}
 }
 
@@ -165,5 +188,13 @@
 	}
 	.button-submit {
 		height: 45px;
+	}
+	.carousel {
+		&__inner {
+			width: 260px;
+		}
+		.slick-dots {
+			margin-top: 15px;
+		}
 	}
 }
