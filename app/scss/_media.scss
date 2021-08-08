@@ -77,6 +77,13 @@
 			font-size: 16px;
 		}
 	}
+	.reviews {
+		&__avatar {
+			height: 120px;
+			width: 120px;
+			margin-right: 40px;
+		}
+	}
 }
 
 @media (max-width: 655px) {
@@ -153,6 +160,13 @@
 		&__tab {
 			width: 90%;
 			margin: 0 auto 10px;
+		}
+	}
+	.reviews {
+		&__avatar {
+			height: 60px;
+			width: 60px;
+			margin-right: 18px;
 		}
 	}
 }
@@ -241,6 +255,7 @@
 		}
 	}
 	.catalog {
+		padding-bottom: 50px;
 		&__content {
 			grid-template-columns: minmax(260px, 450px);
 		}
@@ -261,5 +276,19 @@
 	}
 	.button-mini {
 		width: 110px;
+	}
+	.reviews {
+		&__avatar {
+			height: 45px;
+			width: 45px;
+		}
+		&__item {
+			margin-top: 30px;
+		}
+		&__content-review {
+			font-size: 14px;
+			line-height: 20px;
+			margin-left: -63px;
+		}
 	}
 }
