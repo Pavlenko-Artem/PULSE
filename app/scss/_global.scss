@@ -60,6 +60,12 @@ body {
 		height: 55px;
 		font-size: 16px;
 	}
+	&-mini {
+		width: 131px;
+		height: 40px;
+		font-size: 14px;
+		font-weight: 400;
+	}
 }
 
 .title {
@@ -68,10 +74,12 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+	color: #0d0d0d;
 	&-left {
 		text-align: left;
 		font-size: 36px;
 		line-height: 54px;
 		max-width: 860px;
+		color: #fff;
 	}
 }
