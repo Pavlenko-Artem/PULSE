@@ -239,6 +239,17 @@
 			font-size: 16px;
 		}
 	}
+	.modal {
+		width: 340px;
+		padding: 38px 20px 20px;
+		min-height: 0px;
+		&__close {
+			top: 5px;
+			right: 3px;
+			font-size: 74px;
+			line-height: 34px;
+		}
+	}
 }
 
 @media (max-width: 415px) {
@@ -259,6 +270,11 @@
 			margin-top: 45px;
 			width: 230px;
 			height: 40px;
+			font-size: 14px;
+		}
+		&-submit {
+			height: 45px;
+			line-height: 39px;
 			font-size: 14px;
 		}
 	}
@@ -282,9 +298,6 @@
 		input {
 			height: 45px;
 		}
-	}
-	.button-submit {
-		height: 45px;
 	}
 	.carousel {
 		&__inner {
@@ -330,5 +343,8 @@
 			line-height: 20px;
 			margin-left: -63px;
 		}
+	}
+	.modal {
+		width: 100%;
 	}
 }
