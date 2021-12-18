@@ -1,0 +1,16 @@
+.consultation {
+	min-height: 680px;
+	padding: 100px 0 92px;
+	background: url(../images/bg2.jpg) center (center/cover) no-repeat;
+	color: #fff;
+	&__descr {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+		max-width: 450px;
+		margin-top: 8px;
+	}
+	.feed-form {
+		margin: 36px 0 0;
+	}
+}
