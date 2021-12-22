@@ -13,4 +13,16 @@
 	.feed-form {
 		margin: 36px 0 0;
 	}
+	.error {
+		border: 1px solid red;
+	}
+	label.error {
+		margin-bottom: 15px;
+		margin-top: -8px;
+		font-weight: 700;
+		text-align: center;
+		color: rgba(#fff, 0.8);
+		font-size: 14px;
+		border: none;
+	}
 }

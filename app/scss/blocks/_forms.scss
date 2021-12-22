@@ -3,18 +3,6 @@
 	flex-direction: column;
 	width: 300px;
 	margin: 36px auto 0;
-	.error {
-		border: 1px solid red;
-	}
-	label.error {
-		margin-bottom: 15px;
-		margin-top: -8px;
-		font-weight: 700;
-		text-align: center;
-		color: rgba(#fff, 0.8);
-		font-size: 14px;
-		border: none;
-	}
 	input {
 		height: 50px;
 		border-radius: 5px;
