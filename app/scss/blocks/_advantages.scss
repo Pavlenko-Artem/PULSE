@@ -15,6 +15,9 @@
 	&__item-img {
 		margin: 0 auto 35px;
 	}
+	&__item-animated {
+		animation: heartbeat 1s infinite;
+	}
 	&__item-title {
 		font-size: 18px;
 		line-height: 29px;
