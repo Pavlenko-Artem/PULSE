@@ -26,7 +26,7 @@ $(function () {
 			$(this).on('click', function (e) {
 				e.preventDefault();
 				$('.catalog-item__content').eq(i).toggleClass('catalog-item__content-active');
-				$('.catalog-item__list').eq(i).toggleClass('catalog-item__list-active');
+				$('.catalog-item__info').eq(i).toggleClass('catalog-item__info-active');
 			});
 		});
 	}
@@ -116,7 +116,7 @@ $(function () {
 		}
 	})
 
-	$("a[href^='#']").click(function () {
+	$("a[href='#up']").click(function () {
 		const _href = $(this).attr("href");
 		$("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
 		return false;
