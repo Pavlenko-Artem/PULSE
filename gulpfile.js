@@ -47,6 +47,8 @@ function scripts() {
 		'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 		'node_modules/jquery-validation/dist/jquery.validate.js',
 		'app/js/jquery.maskedinput.min.js',
+		'app/js/jquery.validate.min.js',
+		'app/js/wow.min.js',
 		'app/js/main.js'
 	])
 		.pipe(concat('main.min.js'))
